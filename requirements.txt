@@ -1,0 +1,24 @@
+# PHP Dependencies for Dairy Farm Management System
+# PHP >= 7.4
+# MySQL >= 5.7 or MySQL 8.0
+# Apache with mod_rewrite enabled
+
+# PHP Extensions Required:
+# - php-mysql (MySQL database support)
+# - php-pdo (PDO database access)
+# - php-json (JSON support)
+# - php-session (Session support)
+# - php-date (Date/Time functions)
+# - php-filter (Input filtering)
+# - php-curl (HTTP requests)
+
+# Development Dependencies:
+# - phpunit (Optional: for testing)
+# - phpcs (Optional: for code quality)
+
+# External Libraries:
+# - jQuery (JavaScript framework)
+# - Bootstrap (UI framework)
+
+Note: This is a traditional PHP application without composer.json dependencies.
+All libraries are included in the /vendor or /lib directories.
