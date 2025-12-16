@@ -14,6 +14,12 @@ $db_name = 'dairy_farm_db';
 
 $conn = new mysqli($db_host, $db_user, $db_password, $db_name);
 
+// Check user login
+if (!isset($_SESSION['user'])) {
+    header('Location: login.php');
+    exit();
+}
+
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
