@@ -1,0 +1,44 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# PHP
+*.log
+config/database.php
+local.php
+
+# Database
+*.sql
+*.db
+*.sqlite
+
+# Environment
+.env
+.env.local
+
+# Temporary
+tmp/
+temp/
+cache/
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# System files
+*.bak
+*.swp
+*~
+Thumbs.db
+
+# Node (if using frontend tools)
+node_modules/
+package-lock.json
+
+# Composer
+vendor/
+composer.lock
